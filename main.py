@@ -129,10 +129,10 @@ data_page = html.Div([
         
         html.Div([
             'Drop (.csv, .xlsx)',
-            dcc.Upload([ 'Upuść lub ', html.A( 'załaduj pliki', id = 'uploadlink' )], id = 'upload' ),
+            dcc.Upload([ html.Div([ 'Upuść lub ', html.Span( 'załaduj pliki', id = 'uploadlink' )], id = 'upload-div' )], id = 'upload' ),
         ], className = 'data' ),
 
-        html.Div( 'Wstaw swoje dane zanim przejdziesz dalej lub zaczekaj aż się załadują.', id = 'load-data' ),
+         html.Div( 'Zanim przejdziesz dalej, zaczekaj aż dane się załadują.', id = 'load-data' ),
 
         html.Div([
             dcc.Link( 'Przejdź dalej', href = '/plot', id = 'summitlink' )
