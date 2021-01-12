@@ -1,0 +1,66 @@
+#home-image {
+    float: right;
+    height: 80px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    width: auto;    
+}
+.plotapp {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 10px;
+    margin: 0;
+}   
+.plotdivs {
+    border: 3px dashed black;
+    border-radius: 5px;
+    height: 68vh;
+    margin: 40px;
+    text-align: center;
+}
+.editplottab {
+    font-size: 20px;
+    height: 60px;
+}
+.editplottab-sel {
+    border-top: none !important;
+    border-bottom: 2px solid red !important;
+}
+#instruction {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#data-name{
+    color: red;
+    font-size: 20px;
+}
+.editplot-input {
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputplot {
+    align-items: center;
+    height: 10vh;
+}
+.inp {
+    align-self: center;
+    height: calc( 50% - 20px );
+    width: 80%;
+}
+.dropedit {
+    display: block;
+    height: calc( 52% - 20px );
+    margin: auto;
+    width: 82%;
+}
+#plot {
+    display: block;
+    height: 80%;
+    margin-top: 5%;
+}

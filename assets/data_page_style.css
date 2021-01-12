@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 40px 80px 0 80px;
+}
+#title {
+    color: red;
+    font-family: 'Potta One', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+#version {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.app {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0;
+}   
+.data {
+    text-align: center;  
+}
+#pastedata {
+    border: 3px dashed black;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50vh;
+    margin: 0 40px 0 40px;
+    resize: none;
+    outline: none;
+    text-align: left;
+    width: calc( 100% - 80px );
+}
+#upload {
+    border: 3px dashed black;
+    border-radius: 5px;
+    height: calc( 50vh + 5px );
+    line-height: calc( 50vh + 5px );
+    margin: 0 40px 0 40px;
+    width: calc( 100% - 80px );
+}
+#upload:hover {
+    cursor: pointer;
+}
+#uploadlink {
+    border-bottom: 1px solid red;
+    color: red;
+}
+#load-data {
+    color: red;
+    grid-column: span 2;
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.summit {
+    grid-column: span 2;
+    text-align: center; 
+}
+#summitlink {
+    border: 3px dashed black;
+    border-radius: 5px; 
+    color: black;
+    display: block;
+    line-height: calc( 10vh + 5px );
+    margin: 0 40px 40px 40px;
+    text-decoration: none;
+    width: calc( 100% - 80px );
+}
+#summitlink:hover {
+    background-color: red;
+}
