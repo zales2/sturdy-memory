@@ -268,7 +268,7 @@ def file_to_memory( content, pasted, fname ):
             editable = False,
             page_action = 'native',
             page_current = 0,
-            page_size = 10,
+            page_size = 5,
             selected_columns = [],
             style_cell = { 'maxWidth': '20px', 'minWidth': '20px', 'width': '20px', 'height': '20px' },
             style_cell_conditional=[{ 'textAlign': 'center' }],
