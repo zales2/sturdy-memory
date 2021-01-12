@@ -43,21 +43,24 @@
     border: 3px dashed black;
     border-radius: 5px;
     height: calc( 50vh + 5px );
-    line-height: calc( 50vh + 5px );
     margin: 0 40px 0 40px;
     width: calc( 100% - 80px );
 }
 #upload:hover {
     cursor: pointer;
 }
+#upload-div {
+    margin-top: calc( 50% - 40px );
+}
 #uploadlink {
     border-bottom: 1px solid red;
     color: red;
+    text-align: center;
 }
 #load-data {
     color: red;
     grid-column: span 2;
-    height: 50px;
+    height: 5vh;
     margin-bottom: 15px;
     text-align: center;
 }
