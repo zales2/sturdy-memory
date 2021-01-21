@@ -124,7 +124,7 @@ data_page = html.Div([
             
         html.Div([
             'Wklej tutaj swoją tabelę',
-            dcc.Textarea( id = 'pastedata', placeholder = 'najlepiej z pliku .xls lub .xlsx', value = '' ),
+            dcc.Textarea( id = 'pastedata', placeholder = 'bez nazw wierszy, najlepiej z pliku .xls lub .xlsx', value = '' ),
         ], className = 'data' ),
         
         html.Div([
