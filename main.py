@@ -70,6 +70,9 @@ def readpasted( pasted ):
     for i in range( lendf ):
         columnlist.append( alphabet[ i ] )
     df.columns = columnlist
+    
+    for i in range( lendf ):
+        df[alphabet[ i ]] = pd.to_numeric(df[alphabet[ i ]])
 
     return df
 
